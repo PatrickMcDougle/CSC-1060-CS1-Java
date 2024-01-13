@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ch01Program06",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch01.Ch01Program06",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch01Program04",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch01.Ch01Program04",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch01Program05",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch01.Ch01Program05",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch01Program03",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch01.Ch01Program03",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch01Program02",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch01.Ch01Program02",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch01Program01",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch01.Ch01Program01",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Launch Current File with JavaFX",
+            "mainClass": "${file}",
+            "vmArgs": ["--module-path", "${env:PATH_TO_FX}", "--add-modules", "javafx.controls,javafx.fxml"]
+        }
+    ]
+}
