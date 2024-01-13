@@ -1,0 +1,31 @@
+@startuml compiling
+
+file f #LightGreen [
+    High Level Source File
+    \t...
+    \tarea = 5 * 5 * 3.1415;
+    \t...
+]
+card c #LightGrey [
+    Compiler
+]
+component b #LightBlue [
+    Machine Code File -binary
+    \t...
+    \t0101100011011100
+    \t1111100011000100
+    \t...
+]
+card e #LightGrey [
+    Executor
+]
+frame o #Yellow [
+    Output/Execution
+]
+
+f ->> c
+c ->> b
+b ->> e
+e ->> o
+
+@enduml

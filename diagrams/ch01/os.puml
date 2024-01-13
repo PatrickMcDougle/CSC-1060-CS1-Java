@@ -1,0 +1,22 @@
+@startuml os
+
+actor u #Yellow [
+    User
+]
+rectangle a #LightGreen [
+    Application Program
+]
+rectangle o #LightBlue [
+    Operating System
+]
+rectangle h #Orange [
+    Hardware
+]
+
+u <<-->> a
+a <<-->> o
+o <<-->> u
+o <<-->> h
+
+
+@enduml

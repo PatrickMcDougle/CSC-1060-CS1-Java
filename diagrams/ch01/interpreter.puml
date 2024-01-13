@@ -1,0 +1,19 @@
+@startuml
+
+file f #LightGreen [
+    High Level Source File
+    \t...
+    \tarea = 5 * 5 * 3.1415;
+    \t...
+]
+card i #LightGrey [
+ Interpreter
+]
+frame b #Yellow [
+    Output/Execution
+]
+
+f ->> i
+i ->> b
+
+@enduml

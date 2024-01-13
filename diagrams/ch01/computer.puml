@@ -1,0 +1,42 @@
+@startuml Computer
+
+nwdiag {
+    network BUS {
+        Storage [shape = database, description = "\nStorage\nDevices\n", note = "what"];
+        Memory;
+        CPU;
+        Comms [description = "\nCommunications\n         Devices\n"];
+        Input [description = "\n    Input Devices    \n"];
+        Output [description = "\n    Output Devices    \n"];
+    }
+
+    group {
+        color = "#FFFFFF";
+        Output;
+        description = "\t\t\te.g., Printer,\n\t\t\tMonitor,\n\t\t\tSpeakers, ..."
+    }
+    group {
+        color = "#FFFFFF";
+        Input;
+        description = "\t\t\te.g., Mouse,\n\t\t\tKeyboard,\n\t\t\tWebCam, ..."
+    }
+    group {
+        color = "#FFFFFF";
+        Comms;
+        description = "\t\t\te.g., Modem,\n\t\t\tRouter,\n\t\t\tNIC, ..."
+    }
+    group {
+        color = "#FFFFFF";
+        Storage;
+        description = "\t\te.g., Disk, CD,\n\t\tTape, Flash Drive,\n\t\tFloppy Disk, ..."
+    }
+}
+
+' rectangle "Storage Device" #LightBlue
+' rectangle "Memory" #LightBlue
+' rectangle "CPU" #LightBlue
+' rectangle "Communication Devices" #LightBlue
+' rectangle "Input Devices" #LightBlue
+' rectangle "Output Devices" #LightBlue
+
+@enduml
