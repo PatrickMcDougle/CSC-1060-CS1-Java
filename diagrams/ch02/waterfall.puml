@@ -1,0 +1,39 @@
+@startuml
+
+rectangle r [
+    Requirements Specification
+]
+rectangle a [
+    Analysis
+]
+rectangle d [
+    Design
+]
+rectangle i [
+    Implementation
+]
+rectangle t [
+    Testing
+]
+rectangle de [
+    Deployment
+]
+rectangle m [
+    Maintenance
+]
+
+r --> a
+a --> d
+d --> i
+i --> t
+t --> de
+de --> m
+
+a ..> r
+d ..> a
+i ..> d
+t ..> i
+de ..> t
+m ..> de
+
+@enduml
