@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ch03Program10",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program10",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program09",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program09",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program08",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program08",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program07",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program07",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program06",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program06",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program05",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program05",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program04",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program04",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program03",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program03",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program02",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program02",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch03Program01",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch03.Ch03Program01",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
+            "name": "Ch02Program01",
+            "request": "launch",
+            "mainClass": "edu.csc1060.ch02.Ch02Program01",
+            "projectName": "CSC-1060-CS1-Java_d60a7a72"
+        },
+        {
+            "type": "java",
             "name": "Ch02Program10",
             "request": "launch",
             "mainClass": "edu.csc1060.ch02.Ch02Program10",
