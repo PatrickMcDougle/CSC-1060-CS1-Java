@@ -1,0 +1,12 @@
+@startuml
+
+start
+
+if (boolean-expression) then (true)
+    :statement(s) for the true case;
+else (false)
+    :Statement(s) for the false case;
+endif
+stop
+
+@enduml

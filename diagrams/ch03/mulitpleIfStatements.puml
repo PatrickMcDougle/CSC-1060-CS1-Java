@@ -1,0 +1,24 @@
+@startuml
+
+start
+if (score >= 90.0) then (true)
+    :Grade is A;
+else (false)
+    if (score >= 80.0) then (true)
+        :Grade is B;
+    else (false)
+        if (score >= 70.0) then (true)
+            :Grade is C;
+        else (false)
+            if (score >= 60.0) then (true)
+                :Grade is D;
+            else (false)
+                :Grade is F;
+            endif
+        endif
+    endif
+endif
+
+stop
+
+@enduml

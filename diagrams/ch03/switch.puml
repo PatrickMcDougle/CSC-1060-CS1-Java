@@ -1,0 +1,19 @@
+@startuml switch statement
+start
+if (status is A) then (yes)
+  :Compute tax for single filers;
+  :break;
+elseif (status is B) then (yes)
+  :Compute tax for married jointly filers;
+  :break;
+elseif (status is C) then (yes)
+  :Compute tax for married separately filers;
+  :break;
+elseif (status is D) then (yes)
+  :Compute tax for head of household filers;
+  :break;
+else (default)
+  :default stuff;
+endif
+stop
+@enduml

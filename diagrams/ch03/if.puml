@@ -1,0 +1,10 @@
+@startuml
+
+start
+
+if (true) then (true)
+    :statement(s);
+endif
+stop
+
+@enduml
