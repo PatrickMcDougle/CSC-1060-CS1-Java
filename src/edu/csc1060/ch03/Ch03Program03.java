@@ -47,7 +47,7 @@ public class Ch03Program03 {
     input.close();
 
     // 4. Grade the answer and display the result
-    if (number1 - number2 == answer) {
+    if (number1 + number2 == answer) {
       System.out.println("You are correct!");
       System.out.print(number1 + " + " + number2 + " is " + answer);
     } else {
