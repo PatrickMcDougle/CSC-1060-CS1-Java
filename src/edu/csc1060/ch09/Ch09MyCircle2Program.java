@@ -1,11 +1,11 @@
 /**
  * Code for Class.
  * <p>
- * CSC 1061 - Computer Science II - Java
+ * CSC 1060 - Computer Science I - Java
  *
- * @author  Patrick McDougle
+ * @author Patrick McDougle
  * @version %I%, %G%
- * @since   1.0
+ * @since 1.0
  */
 package edu.csc1061.ch09;
 
@@ -23,7 +23,8 @@ public class Ch09MyCircle2Program {
         // Display c1 BEFORE c2 is created
         System.out.println("\nAfter creating c1");
         System.out.println("c1: radius (" + c1.radius + ")");
-        System.out.println("c1: # of Circle objects (" + c1.numberOfObjects + " or " + c1.getNumberOfObjects() + ")");
+        System.out.println("c1: # of Circle objects (" + c1.numberOfObjects + " or "
+                + c1.getNumberOfObjects() + ")");
 
         // Create c2
         Ch09Circle2 c2 = new Ch09Circle2(5);
@@ -34,8 +35,10 @@ public class Ch09MyCircle2Program {
         // Display c1 and c2 AFTER c2 was created
         System.out.println("\nAfter creating c2 and modifying c1");
         System.out.println("c1: radius (" + c1.radius + ")");
-        System.out.println("c1: # of Circle objects (" + c1.numberOfObjects + " or " + c1.getNumberOfObjects() + ")");
+        System.out.println("c1: # of Circle objects (" + c1.numberOfObjects + " or "
+                + c1.getNumberOfObjects() + ")");
         System.out.println("c2: radius (" + c2.radius + ")");
-        System.out.println("c2: # of Circle objects (" + c2.numberOfObjects + " or " + c2.getNumberOfObjects() + ")");
+        System.out.println("c2: # of Circle objects (" + c2.numberOfObjects + " or "
+                + c2.getNumberOfObjects() + ")");
     }
 }

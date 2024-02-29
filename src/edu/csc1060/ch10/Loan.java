@@ -1,11 +1,11 @@
 /**
  * Code for Class.
  * <p>
- * CSC 1061 - Computer Science II - Java
+ * CSC 1060 - Computer Science I - Java
  *
- * @author  Patrick McDougle
+ * @author Patrick McDougle
  * @version %I%, %G%
- * @since   1.0
+ * @since 1.0
  */
 package edu.csc1061.ch10;
 
@@ -21,8 +21,7 @@ public class Loan {
   }
 
   /**
-   * Construct a loan with specified annual interest rate,
-   * number of years, and loan amount
+   * Construct a loan with specified annual interest rate, number of years, and loan amount
    */
   public Loan(double annualInterestRate, int numberOfYears, double loanAmount) {
     this.annualInterestRate = annualInterestRate;

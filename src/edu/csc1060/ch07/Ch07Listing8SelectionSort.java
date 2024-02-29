@@ -1,7 +1,8 @@
 /**
  * Code for Class.
  *
- * <p>CSC 1061 - Computer Science II - Java
+ * <p>
+ * CSC 1060 - Computer Science I - Java
  *
  * @author Patrick McDougle
  * @version %I%, %G%
@@ -12,9 +13,8 @@ package edu.csc1061.ch07;
 public class Ch07Listing8SelectionSort {
 
   public static void main(String[] args) {
-    double[] list = {
-      3.4, 3.5, 3.6, 1.1, 1.2, 1.3, 4.5, 4.6, 4.7, 2.3, 2.4, 2.5, 5.6, 5.7, 5.8, 9.9, 6.7, 6.8, 6.9
-    };
+    double[] list = {3.4, 3.5, 3.6, 1.1, 1.2, 1.3, 4.5, 4.6, 4.7, 2.3, 2.4, 2.5, 5.6, 5.7, 5.8, 9.9,
+        6.7, 6.8, 6.9};
 
     printArray(list);
     selectionSort(list);

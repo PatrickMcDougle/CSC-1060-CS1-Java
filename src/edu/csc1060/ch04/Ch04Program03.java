@@ -48,9 +48,10 @@ public class Ch04Program03 {
     System.out.print(YES_OR_NO_PROMPT);
     int answer = input.nextInt();
 
-    if (answer == 1) {
-      day += 1;
-    }
+    // if (answer == 1) {
+    //   day += 1;
+    // }
+    day += 1 * answer;
 
     // Prompt the user to answer questions
     System.out.println("\nIs your birthday in Set2?");
@@ -58,9 +59,10 @@ public class Ch04Program03 {
     System.out.print(YES_OR_NO_PROMPT);
     answer = input.nextInt();
 
-    if (answer == 1) {
-      day += 2;
-    }
+    // if (answer == 1) {
+    //   day += 2;
+    // }
+    day += 2 * answer;
 
     // Prompt the user to answer questions
     System.out.println("\nIs your birthday in Set3?");
@@ -68,9 +70,10 @@ public class Ch04Program03 {
     System.out.print(YES_OR_NO_PROMPT);
     answer = input.nextInt();
 
-    if (answer == 1) {
-      day += 4;
-    }
+    // if (answer == 1) {
+    //   day += 4;
+    // }
+    day += 4 * answer;
 
     // Prompt the user to answer questions
     System.out.println("\nIs your birthday in Set4?");
@@ -78,9 +81,10 @@ public class Ch04Program03 {
     System.out.print(YES_OR_NO_PROMPT);
     answer = input.nextInt();
 
-    if (answer == 1) {
-      day += 8;
-    }
+    // if (answer == 1) {
+    //   day += 8;
+    // }
+    day += 8 * answer;
 
     // Prompt the user to answer questions
     System.out.println("\nIs your birthday in Set5?");
@@ -88,9 +92,11 @@ public class Ch04Program03 {
     System.out.print(YES_OR_NO_PROMPT);
     answer = input.nextInt();
 
-    if (answer == 1) {
-      day += 16;
-    }
+    // if (answer == 1) {
+    //   day += 16;
+    // }
+
+    day += 16 * answer;
 
     // The following statement will close the input connection to the console window.
     input.close();

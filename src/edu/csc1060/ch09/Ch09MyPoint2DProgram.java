@@ -1,11 +1,11 @@
 /**
  * Code for Class.
  * <p>
- * CSC 1061 - Computer Science II - Java
+ * CSC 1060 - Computer Science I - Java
  *
- * @author  Patrick McDougle
+ * @author Patrick McDougle
  * @version %I%, %G%
- * @since   1.0
+ * @since 1.0
  */
 package edu.csc1061.ch09;
 
@@ -29,8 +29,7 @@ public class Ch09MyPoint2DProgram {
     System.out.println("p1 is " + p1.toString());
     System.out.println("p2 is " + p2.toString());
     System.out.println("The distance between p1 and p2 is " + p1.distance(p2));
-    System.out.println(
-        "The midpoint between p1 and p2 is " + p1.midpoint(p2).toString());
+    System.out.println("The midpoint between p1 and p2 is " + p1.midpoint(p2).toString());
 
     input.close();
   }

@@ -1,11 +1,11 @@
 /**
  * Code for Class.
  * <p>
- * CSC 1061 - Computer Science II - Java
+ * CSC 1060 - Computer Science I - Java
  *
- * @author  Patrick McDougle
+ * @author Patrick McDougle
  * @version %I%, %G%
- * @since   1.0
+ * @since 1.0
  */
 package edu.csc1061.ch10;
 
@@ -23,10 +23,8 @@ public class Ch10Program11PalindromeIgnoreNonAlphanumeric {
     String s = input.nextLine();
 
     // Display result
-    System.out.println("Ignoring non-alphanumeric characters, \nis " +
-        s +
-        " a palindrome? " +
-        isPalindrome(s));
+    System.out.println(
+        "Ignoring non-alphanumeric characters, \nis " + s + " a palindrome? " + isPalindrome(s));
 
     input.close();
   }

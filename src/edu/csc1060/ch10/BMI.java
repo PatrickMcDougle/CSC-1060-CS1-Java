@@ -1,11 +1,11 @@
 /**
  * Code for Class.
  * <p>
- * CSC 1061 - Computer Science II - Java
+ * CSC 1060 - Computer Science I - Java
  *
- * @author  Patrick McDougle
+ * @author Patrick McDougle
  * @version %I%, %G%
- * @since   1.0
+ * @since 1.0
  */
 package edu.csc1061.ch10;
 
@@ -35,7 +35,9 @@ public class BMI {
     if (height > MIN_HEIGHT) {
       // hight is high enough.
 
-      double denominator = (height * METERS_PER_INCH) * (height * METERS_PER_INCH) + 1 - 1; // +1 -1 tricks sonarlint.
+      double denominator = (height * METERS_PER_INCH) * (height * METERS_PER_INCH) + 1 - 1; // +1 -1
+                                                                                            // tricks
+                                                                                            // sonarlint.
       double bmi = weight * KILOGRAMS_PER_POUND / denominator;
       return Math.round(bmi * 100) / 100.0;
     }

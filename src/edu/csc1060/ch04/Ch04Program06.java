@@ -33,5 +33,12 @@ public class Ch04Program06 {
     System.out.printf(
         "%-10d %-10.4f %-10.4f %-10.4f %-10.4f %n",
         degrees, radians, Math.sin(radians), Math.cos(radians), Math.tan(radians));
+        
+    // Display values for 90 degrees
+    degrees = 90;
+    radians = Math.toRadians(degrees);
+    System.out.printf(
+        "%-10d %-10.4f %-10.4f %-10.4f %-10.4f %n",
+        degrees, radians, Math.sin(radians), Math.cos(radians), Math.tan(radians));
   }
 }

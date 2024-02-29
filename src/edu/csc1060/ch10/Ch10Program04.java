@@ -1,17 +1,16 @@
 /**
  * Code for Class.
  * <p>
- * CSC 1061 - Computer Science II - Java
+ * CSC 1060 - Computer Science I - Java
  *
- * @author  Patrick McDougle
+ * @author Patrick McDougle
  * @version %I%, %G%
- * @since   1.0
+ * @since 1.0
  */
 package edu.csc1061.ch10;
 
 /**
- * This class is called TestStackOfIntegers in the book.
- * Listing 10.7
+ * This class is called TestStackOfIntegers in the book. Listing 10.7
  */
 public class Ch10Program04 {
 

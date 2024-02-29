@@ -1,11 +1,11 @@
 /**
  * Code for Class.
  * <p>
- * CSC 1061 - Computer Science II - Java
+ * CSC 1060 - Computer Science I - Java
  *
- * @author  Patrick McDougle
+ * @author Patrick McDougle
  * @version %I%, %G%
- * @since   1.0
+ * @since 1.0
  */
 package edu.csc1061.ch09;
 
@@ -39,19 +39,13 @@ public class Ch09MyCircle5Program {
   public static void printCircleArray(Ch09Circle3[] circleArray) {
     System.out.printf("%-30s%-15s%n", "Radius", "Area");
     for (int i = 0; i < circleArray.length; i++) {
-      System.out.printf(
-          "%-30f%-15f\n",
-          circleArray[i].getRadius(),
-          circleArray[i].getArea());
+      System.out.printf("%-30f%-15f\n", circleArray[i].getRadius(), circleArray[i].getArea());
     }
 
     System.out.println("-----------------------------------------");
 
     // Compute and display the result
-    System.out.printf(
-        "%-30s%-15f%n",
-        "The total areas of circles is",
-        sum(circleArray));
+    System.out.printf("%-30s%-15f%n", "The total areas of circles is", sum(circleArray));
   }
 
   // Add circle areas
