@@ -1,0 +1,47 @@
+@startuml
+
+rectangle pc [
+    Print Calendar (main)
+]
+rectangle ri [
+    Read Input
+]
+rectangle pm [
+    Print Month
+]
+rectangle pmt [
+    Print Month Title
+]
+rectangle gmn [
+    Get Month Name
+]
+rectangle pmb [
+    Print Month Body
+]
+rectangle gsd [
+    Get Start Day
+]
+rectangle gtnd [
+    Get Total Number of Days
+]
+rectangle gndm [
+    Get Number of Days in Month
+]
+rectangle ly [
+    Is Leap Year
+]
+
+pc --> ri
+pc --> pm
+pm --> pmt
+pm --> pmb
+pmt --> gmn
+pmb --> gsd
+pmb --> gndm
+gsd --> gtnd
+gtnd --> gndm
+gtnd --> ly
+gndm --> ly
+
+
+@enduml
