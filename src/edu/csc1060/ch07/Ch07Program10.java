@@ -2,34 +2,38 @@
  * Code for Class.
  *
  * <p>
+ * Demonstration of selection sort
+ *
+ * <p>
  * CSC 1060 - Computer Science I - Java
  *
  * @author Patrick McDougle
  * @version %I%, %G%
  * @since 1.0
  */
-package edu.csc1061.ch07;
+package edu.csc1060.ch07;
 
-public class Ch07Listing8SelectionSort {
+import java.util.Arrays;
+
+public class Ch07Program10 {
 
   public static void main(String[] args) {
     double[] list = {3.4, 3.5, 3.6, 1.1, 1.2, 1.3, 4.5, 4.6, 4.7, 2.3, 2.4, 2.5, 5.6, 5.7, 5.8, 9.9,
         6.7, 6.8, 6.9};
 
-    printArray(list);
+    printArray("Array before sorting ", list);
     selectionSort(list);
-    printArray(list);
+    printArray("Array after sorting  ", list);
+
+    // Java has an Arrays.toString() method that will print out the array for us. No need to keep
+    // using the method we created at the start of these examples.
+    System.out.println(Arrays.toString(list));
   }
 
-  public static void printArray(double[] list) {
-
-    for (int i = 0; i < list.length; i++) {
-      System.out.print(list[i]);
-      System.out.print(" ");
-    }
-    System.out.println();
-  }
-
+  /**
+   *
+   * @param list
+   */
   public static void selectionSort(double[] list) {
     for (int i = 0; i < list.length - 1; i++) {
       // find the minimum in the list[i..list.length-1]
@@ -49,5 +53,24 @@ public class Ch07Listing8SelectionSort {
         list[i] = currentMin;
       }
     }
+  }
+
+  /**
+   *
+   * @param header
+   * @param array
+   */
+  public static void printArray(String header, double[] array) {
+    boolean isFirstLoop = true;
+    System.out.print(header + "[");
+    for (double i : array) {
+      if (!isFirstLoop) {
+        System.out.print(", ");
+      } else {
+        isFirstLoop = false;
+      }
+      System.out.print(i);
+    }
+    System.out.println("]");
   }
 }

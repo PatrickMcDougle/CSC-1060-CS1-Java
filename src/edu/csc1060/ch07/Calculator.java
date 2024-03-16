@@ -1,5 +1,6 @@
 /**
  * Code for Class.
+ *
  * <p>
  * CSC 1060 - Computer Science I - Java
  *
@@ -7,7 +8,7 @@
  * @version %I%, %G%
  * @since 1.0
  */
-package edu.csc1061.ch07;
+package edu.csc1060.ch07;
 
 public class Calculator {
 
