@@ -42,10 +42,13 @@ public class Ch07Program09 {
 
     while (high >= low) {
       int mid = (low + high) / 2;
+
+      if (key == list[mid]) {
+        return mid;
+      }
+
       if (key < list[mid]) {
         high = mid - 1;
-      } else if (key == list[mid]) {
-        return mid;
       } else {
         low = mid + 1;
       }

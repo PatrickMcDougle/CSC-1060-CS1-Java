@@ -7,7 +7,7 @@
  * @version %I%, %G%
  * @since 1.0
  */
-package edu.csc1061.ch09;
+package edu.csc1060.ch09;
 
 public class Ch09Television {
   int channel = 1; // Default channel is 1

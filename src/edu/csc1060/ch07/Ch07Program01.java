@@ -50,8 +50,8 @@ public class Ch07Program01 {
 
     // The numbers of elements above average
     int count = 0;
-    
-    for (double item: numbers) {
+
+    for (double item : numbers) {
       if (item > average) {
         count++;
       }

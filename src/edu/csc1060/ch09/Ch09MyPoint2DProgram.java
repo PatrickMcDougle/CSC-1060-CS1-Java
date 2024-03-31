@@ -7,7 +7,7 @@
  * @version %I%, %G%
  * @since 1.0
  */
-package edu.csc1061.ch09;
+package edu.csc1060.ch09;
 
 import java.util.Scanner;
 import javafx.geometry.Point2D;

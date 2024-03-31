@@ -7,7 +7,7 @@
  * @version %I%, %G%
  * @since 1.0
  */
-package edu.csc1061.ch10;
+package edu.csc1060.ch10;
 
 /**
  * This class is called TestStackOfIntegers in the book. Listing 10.7

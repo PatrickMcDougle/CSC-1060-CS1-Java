@@ -24,6 +24,7 @@ public class Ch07Program07 {
     printMax(new double[] {10, 20, 40, 50, 30});
     printMax(11, 21, 41, 51, 31);
     printMax(12, 22, 42, 52, 32);
+    printMax(11, 21, 41, 51, 31, 12, 22, 42, 52, 32, 13, 23, 43, 53, 33);
   }
 
   /**

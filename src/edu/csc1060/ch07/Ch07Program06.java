@@ -48,7 +48,7 @@ public class Ch07Program06 {
    */
   public static char[] createArray() {
     // Declare an array of characters and create it
-    char[] chars = new char[260];
+    char[] chars = new char[2600];
 
     // Create lowercase letters randomly and assign
     // them to the array

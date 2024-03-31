@@ -7,7 +7,7 @@
  * @version %I%, %G%
  * @since 1.0
  */
-package edu.csc1061.ch10;
+package edu.csc1060.ch10;
 
 public class Ch10Program12RegularExpression {
   private static final String STRING_JAVA_STAR = "Java.*";

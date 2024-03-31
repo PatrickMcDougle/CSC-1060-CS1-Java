@@ -7,7 +7,7 @@
  * @version %I%, %G%
  * @since 1.0
  */
-package edu.csc1061.ch09;
+package edu.csc1060.ch09;
 
 public class Ch09Circle3 {
   // the radius of this circle
