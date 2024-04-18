@@ -28,15 +28,15 @@ public class Ch08Program05 {
     double[][][] scores = getScores();
 
     // Calculate and display total score for each student
-    for (int i = 0; i < scores.length; i++) {
+    for (int student = 0; student < scores.length; student++) {
       double totalScore = 0;
-      for (int j = 0; j < scores[i].length; j++) {
-        for (int k = 0; k < scores[i][j].length; k++) {
-          totalScore += scores[i][j][k];
+      for (int exam = 0; exam < scores[student].length; exam++) {
+        for (int k = 0; k < scores[student][exam].length; k++) {
+          totalScore += scores[student][exam][k];
         }
       }
 
-      System.out.println("Student " + i + "'s score is " + totalScore);
+      System.out.println("Student " + student + "'s score is " + totalScore);
     }
   }
 

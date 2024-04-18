@@ -37,15 +37,16 @@ public class Ch08Program02 {
    */
   private static void gradeAnswers(char[][] answers, char[] keys) {
     // Grade all answers
-    for (int i = 0; i < answers.length; i++) {
+    for (int student = 0; student < answers.length; student++) {
       // Grade one student
       int correctCount = 0;
-      for (int j = 0; j < answers[i].length; j++) {
-        if (answers[i][j] == keys[j])
+      for (int j = 0; j < answers[student].length; j++) {
+        if (answers[student][j] == keys[j]) {
           correctCount++;
+        }
       }
 
-      System.out.println("Student " + i + "'s correct count is " + correctCount);
+      System.out.println("Student " + student + "'s correct count is " + correctCount);
     }
   }
 
