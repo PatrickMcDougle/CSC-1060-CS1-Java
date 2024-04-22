@@ -9,23 +9,19 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09Circle1 {
+// Updating the Circle class to have visibility keywords added.
+public class Circle1 {
   // the radius of this circle
   public double radius;
 
   // Construct a circle with radius 1
-  public Ch09Circle1() {
+  public Circle1() {
     radius = 1;
   }
 
   // Construct a circle with a specified radius
-  public Ch09Circle1(double newRadius) {
+  public Circle1(double newRadius) {
     radius = newRadius;
-  }
-
-  // Return the radius of the circle
-  public double getRadius() {
-    return radius;
   }
 
   // Return the area of this circle

@@ -9,12 +9,12 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09Television {
+public class Television {
   int channel = 1; // Default channel is 1
   int volumeLevel = 1; // Default volume level is 1
   boolean on = false; // By default TV is off
 
-  public Ch09Television() {
+  public Television() {
     // The default no-arg constructor for this class.
   }
 

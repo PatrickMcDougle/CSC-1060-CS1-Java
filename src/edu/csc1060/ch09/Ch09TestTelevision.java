@@ -9,15 +9,15 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09TelevisionTest {
+public class Ch09TestTelevision {
 
   public static void main(String[] args) {
-    Ch09Television tv1 = new Ch09Television(); // Create a TV
+    Television tv1 = new Television(); // Create a TV
     tv1.turnOn(); // Turn on tv1
     tv1.setChannel(30);
     tv1.setVolume(3);
 
-    Ch09Television tv2 = new Ch09Television();
+    Television tv2 = new Television();
     tv2.turnOn();
     tv2.channelUp();
     tv2.channelUp();

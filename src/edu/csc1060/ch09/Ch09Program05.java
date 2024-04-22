@@ -12,7 +12,8 @@ package edu.csc1060.ch09;
 import java.util.Scanner;
 import javafx.geometry.Point2D;
 
-public class Ch09MyPoint2DProgram {
+// Point2D example
+public class Ch09Program05 {
 
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);

@@ -9,16 +9,16 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09MyCircle2Program {
+public class Ch09Program06 {
 
         // Main method
         public static void main(String[] args) {
                 System.out.println("Before creating objects");
-                System.out.println("The # of Circle objects is " + Ch09Circle2.numberOfObjects
-                                + " or " + Ch09Circle2.getNumberOfObjects());
+                System.out.println("The # of Circle objects is " + Circle2.numberOfObjects + " or "
+                                + Circle2.getNumberOfObjects());
 
                 // Create c1
-                Ch09Circle2 c1 = new Ch09Circle2();
+                Circle2 c1 = new Circle2();
 
                 // Display c1 BEFORE c2 is created
                 System.out.println("\nAfter creating c1");
@@ -27,7 +27,7 @@ public class Ch09MyCircle2Program {
                                 + c1.getNumberOfObjects() + ")");
 
                 // Create c2
-                Ch09Circle2 c2 = new Ch09Circle2(5);
+                Circle2 c2 = new Circle2(5);
 
                 // Modify c1
                 c1.radius = 9;

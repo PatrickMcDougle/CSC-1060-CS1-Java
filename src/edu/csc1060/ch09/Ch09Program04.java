@@ -12,7 +12,8 @@ package edu.csc1060.ch09;
 import java.util.Date;
 import java.util.Random;
 
-public class Ch09MyDateProgram {
+// Date example
+public class Ch09Program04 {
 
   public static void main(String[] args) {
     // DATE STUFF

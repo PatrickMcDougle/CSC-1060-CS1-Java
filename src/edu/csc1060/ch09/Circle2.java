@@ -9,40 +9,36 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09Circle3 {
+// Update the Circle class to have a static number counter.
+public class Circle2 {
   // the radius of this circle
-  private double radius; // instance variable
+  public double radius; // instance variable
 
   // static variables are shared by all the instances of the class.
   // the number of objects created
-  private static int numberOfObjects = 0;
+  public static int numberOfObjects = 0; // NEW
 
   // Construct a circle with radius 1
-  public Ch09Circle3() {
+  public Circle2() {
     radius = 1;
-    numberOfObjects++;
+    numberOfObjects++; // NEW
   }
 
   // Construct a circle with a specified radius
-  public Ch09Circle3(double newRadius) {
+  public Circle2(double newRadius) {
     radius = newRadius;
-    numberOfObjects++;
+    numberOfObjects++; // NEW
   }
 
   // Return numberOfObjects
-  static int getNumberOfObjects() {
+  public static int getNumberOfObjects() { // NEW
     return numberOfObjects;
-  }
-
-  // Return the radius of the circle
-  public double getRadius() {
-    return radius;
   }
 
   // Return the area of this circle
   // PI * radius^2
   public double getArea() {
-    return radius * radius * Math.PI;
+    return radius * numberOfObjects * Math.PI;
   }
 
   // Return the perimeter (circumference) of this circle

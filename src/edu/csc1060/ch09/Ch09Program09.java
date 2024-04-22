@@ -9,12 +9,12 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09MyCircle5Program {
+public class Ch09Program09 {
 
   // Main method
   public static void main(String[] args) {
     // Declare circleArray
-    Ch09Circle3[] circleArray;
+    Circle3[] circleArray;
 
     // Create circleArray
     circleArray = createCircleArray();
@@ -24,11 +24,11 @@ public class Ch09MyCircle5Program {
   }
 
   // Create an array of Circle objects
-  public static Ch09Circle3[] createCircleArray() {
-    Ch09Circle3[] circleArray = new Ch09Circle3[5];
+  public static Circle3[] createCircleArray() {
+    Circle3[] circleArray = new Circle3[5];
 
     for (int i = 0; i < circleArray.length; i++) {
-      circleArray[i] = new Ch09Circle3(Math.random() * 100);
+      circleArray[i] = new Circle3(Math.random() * 100);
     }
 
     // Return Circle array
@@ -36,10 +36,10 @@ public class Ch09MyCircle5Program {
   }
 
   // Print an array of circles and their total area
-  public static void printCircleArray(Ch09Circle3[] circleArray) {
+  public static void printCircleArray(Circle3[] circleArray) {
     System.out.printf("%-30s%-15s%n", "Radius", "Area");
     for (int i = 0; i < circleArray.length; i++) {
-      System.out.printf("%-30f%-15f\n", circleArray[i].getRadius(), circleArray[i].getArea());
+      System.out.printf("%-30f%-15f%n", circleArray[i].getRadius(), circleArray[i].getArea());
     }
 
     System.out.println("-----------------------------------------");
@@ -49,7 +49,7 @@ public class Ch09MyCircle5Program {
   }
 
   // Add circle areas
-  public static double sum(Ch09Circle3[] circleArray) {
+  public static double sum(Circle3[] circleArray) {
     // Initialize sum
     double sum = 0;
 

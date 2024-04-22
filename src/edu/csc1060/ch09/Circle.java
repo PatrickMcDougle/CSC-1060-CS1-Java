@@ -10,16 +10,16 @@
 package edu.csc1060.ch09;
 
 // Define the circle class with two constructors
-class Ch09Circle {
+class Circle {
   double radius;
 
   /** Construct a circle with radius 1 */
-  Ch09Circle() {
+  Circle() {
     radius = 1;
   }
 
   /** Construct a circle with a specified radius */
-  Ch09Circle(double newRadius) {
+  Circle(double newRadius) {
     radius = newRadius;
   }
 

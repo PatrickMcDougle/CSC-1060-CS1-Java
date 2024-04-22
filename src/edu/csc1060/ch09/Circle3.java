@@ -9,22 +9,23 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09Circle2 {
+// update Visibility of variables and added getters.
+public class Circle3 {
   // the radius of this circle
-  public double radius; // instance variable
+  private double radius; // instance variable private visibility
 
   // static variables are shared by all the instances of the class.
   // the number of objects created
-  public static int numberOfObjects = 0;
+  private static int numberOfObjects = 0; // private visibility
 
   // Construct a circle with radius 1
-  public Ch09Circle2() {
+  public Circle3() {
     radius = 1;
     numberOfObjects++;
   }
 
   // Construct a circle with a specified radius
-  public Ch09Circle2(double newRadius) {
+  public Circle3(double newRadius) {
     radius = newRadius;
     numberOfObjects++;
   }
@@ -35,14 +36,14 @@ public class Ch09Circle2 {
   }
 
   // Return the radius of the circle
-  public double getRadius() {
+  public double getRadius() { // NEW
     return radius;
   }
 
   // Return the area of this circle
   // PI * radius^2
   public double getArea() {
-    return radius * numberOfObjects * Math.PI;
+    return radius * radius * Math.PI;
   }
 
   // Return the perimeter (circumference) of this circle

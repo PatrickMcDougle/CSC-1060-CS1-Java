@@ -9,7 +9,7 @@
  */
 package edu.csc1060.ch09;
 
-public class Ch09MyStudent2Program {
+public class Ch09Program03 {
 
   public static void main(String[] args) {
     Student2 student = new Student2(111223333, 1970, 5, 3);
